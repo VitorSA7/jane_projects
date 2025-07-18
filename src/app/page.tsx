@@ -23,7 +23,7 @@ export default function Home() {
             Pergunte sobre técnicas, interpretações e conceitos.
           </p>
           <a 
-            href="/chatbot" 
+            href="/chatbot/" 
             className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
           >
             Começar Conversa
@@ -39,7 +39,7 @@ export default function Home() {
             Memorize detalhes essenciais da grafologia.
           </p>
           <a 
-            href="/aprendizado" 
+            href="/aprendizado/" 
             className="inline-block bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors"
           >
             Estudar Agora
@@ -55,7 +55,7 @@ export default function Home() {
             Avalie se seu aprendizado está adequado.
           </p>
           <a 
-            href="/exame" 
+            href="/exame/" 
             className="inline-block bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors"
           >
             Fazer Exame

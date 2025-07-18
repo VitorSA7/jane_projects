@@ -38,13 +38,13 @@ export default function RootLayout({
                 <Link href="/" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
                   Início
                 </Link>
-                <Link href="/chatbot" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/chatbot/" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
                   Chatbot
                 </Link>
-                <Link href="/aprendizado" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/aprendizado/" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
                   Aprendizado
                 </Link>
-                <Link href="/exame" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/exame/" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
                   Exame
                 </Link>
               </nav>
