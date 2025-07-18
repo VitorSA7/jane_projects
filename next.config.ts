@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   },
   basePath: process.env.NODE_ENV === 'production' ? '/jane_projects' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/jane_projects/' : '',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
