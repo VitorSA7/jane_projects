@@ -15,6 +15,8 @@ O arquivo `.github/workflows/deploy.yml` foi atualizado para usar o novo sistema
 - ✅ Configuração de permissões adequadas
 - ✅ Controle de concorrência para evitar conflitos
 - ✅ Cache de dependências para builds mais rápidos
+- ✅ Configuração correta do ambiente `github-pages`
+- ✅ Separação dos jobs de build e deploy
 
 ### Solução 2: Workflow Alternativo
 Se a Solução 1 não funcionar, use o arquivo `.github/workflows/deploy-fallback.yml` que:
@@ -68,6 +70,10 @@ O `next.config.ts` está configurado corretamente para:
 ### Erro: "cannot lock ref"
 - Use o script `fix-gh-pages.sh`
 - Ou delete manualmente o branch `gh-pages` no GitHub
+
+### Erro: "Missing environment"
+- Verifique se o workflow tem a configuração `environment: name: github-pages`
+- Certifique-se de que os jobs estão separados corretamente (build e deploy)
 
 ### Erro: "Build failed"
 - Verifique se todas as dependências estão instaladas
