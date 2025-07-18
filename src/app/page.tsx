@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -22,12 +24,12 @@ export default function Home() {
             Tire suas dúvidas sobre grafologia com nossa IA especializada. 
             Pergunte sobre técnicas, interpretações e conceitos.
           </p>
-          <a 
-            href="/chatbot/" 
+          <Link 
+            href="/chatbot/"
             className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
           >
             Começar Conversa
-          </a>
+          </Link>
         </div>
 
         {/* Aprendizado Card */}
@@ -38,12 +40,12 @@ export default function Home() {
             Revise conceitos importantes com nosso sistema de repetição espaçada. 
             Memorize detalhes essenciais da grafologia.
           </p>
-          <a 
-            href="/aprendizado/" 
+          <Link 
+            href="/aprendizado/"
             className="inline-block bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors"
           >
             Estudar Agora
-          </a>
+          </Link>
         </div>
 
         {/* Exame Card */}
@@ -54,12 +56,12 @@ export default function Home() {
             Teste seus conhecimentos analisando amostras de escrita reais. 
             Avalie se seu aprendizado está adequado.
           </p>
-          <a 
-            href="/exame/" 
+          <Link 
+            href="/exame/"
             className="inline-block bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors"
           >
             Fazer Exame
-          </a>
+          </Link>
         </div>
       </div>
 
